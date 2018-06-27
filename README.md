@@ -57,10 +57,11 @@ The entire learing curve can be found at [cpt_model_1_learning_curve.pdf](cpt_mo
 The model is first validated against the validation dataset containing as well 5000 sequences of 100 in length. These sequences are generated independant of traning dataset.
 
 Following performance is achieved:
-output   | binary cross entropy | binary accuracy
+
+output | binary cross entropy | binary accuracy
 ---------|----------------------|----------------
-__aux_y__ | 0.031                | 0.994
-__main_y__   | 0.348                | 0.800
+__aux_y__ | 0.031 | 0.994
+__main_y__ | 0.348 | 0.800
 
 The total cost is 0.379.
 
