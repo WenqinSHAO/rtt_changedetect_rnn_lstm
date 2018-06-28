@@ -51,7 +51,7 @@ def load_data(path, sep=',', decimal='.', color=True, x_key='trace', y_key='cpt'
     """
     fn_pattern = re.compile("^[0-9]+.csv$")
     if not os.path.isdir(path):
-        print("%d is not a directory")
+        print("%s is not a directory"%path)
         return
 
     x = []
